@@ -1,0 +1,1 @@
+ C:\\Users\\hp\\Desktop\\Stage\ II\\Calories\\calories\\.dart_tool\\flutter_build\\c01d53757d4954d5925cd52bdb1277c8\\native_assets.yaml: 
