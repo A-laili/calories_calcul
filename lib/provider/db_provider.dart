@@ -17,6 +17,87 @@ class DatabaseProvider with ChangeNotifier {
     'Improve Flexibility': 0.0, // No change
     'General Fitness': 0.0, // No change
   };
+  List<Map<String, double>> recipes = [
+    {
+      'calories': 521,
+      'carbs': 15,
+      'protein': 48,
+      'fat': 40,
+    },
+    {
+      'calories': 521,
+      'carbs': 10,
+      'protein': 20,
+      'fat': 30,
+    },
+    {
+      'calories': 100,
+      'carbs': 12,
+      'protein': 15,
+      'fat': 11,
+    }
+  ];
+
+  void recipe() {
+    Map<String, double> calculatedRatios = calculateRatios();
+// Initialize totals
+    double totalCalories = 0;
+    double totalCarbs = 0;
+    double totalProtein = 0;
+    double totalFat = 0;
+
+    // Sum up the values
+    for (var recipe in recipes) {
+      totalCalories += recipe['calories']!;
+      totalCarbs += recipe['carbs']!;
+      totalProtein += recipe['protein']!;
+      totalFat += recipe['fat']!;
+    
+
+    print('Total Calories: $totalCalories');
+    print('Total Carbs: $totalCarbs grams');
+    print('Total Protein: $totalProtein grams');
+    print('Total Fat: $totalFat grams');
+
+   
+
+      double calculatedProtein = calculatedRatios['protein']!;
+      double calculatedFat = calculatedRatios['fat']!;
+      double calculatedCarbs = calculatedRatios['carbs']!;
+
+      double proteinPercentage = (totalProtein / calculatedProtein) * 100;
+      double fatPercentage = (totalFat / calculatedFat) * 100;
+      double carbPercentage = (totalCarbs / calculatedCarbs) * 100;
+      print('Protein in the recipe : ${proteinPercentage.toStringAsFixed(2)}%');
+      print('Fat in the recipe : ${fatPercentage.toStringAsFixed(2)}%');
+      print('Carbs in the recipe : ${carbPercentage.toStringAsFixed(2)}%');
+
+      List<String> goalsList = [
+        if (primaryGoal != null) primaryGoal!,
+        if (secondaryGoal != null) secondaryGoal!,
+        if (thirdGoal != null) thirdGoal!,
+      ];
+
+      MacronutrientRatios? ratios = findMacronutrientRatios(goalsList);
+      if (ratios != null) {
+        double protratio = ratios.proteinRatio * 100;
+        double fatratio = ratios.fatRatio * 100;
+        double carbratio = ratios.carbRatio * 100;
+        print(' The protein  ratios : $protratio');
+        print(' The fat  ratios : $fatratio');
+        print(' The carbs  ratios : $carbratio');
+
+        double goalProtein = (proteinPercentage / protratio) * 100;
+        double goalFat = (fatPercentage / fatratio) * 100;
+        double goalCarbs = (carbPercentage / carbratio) * 100;
+
+        print('You Acheived : ');
+        print('$goalCarbs from what you need in carbs');
+        print('$goalProtein from what yoy need in protein');
+        print('$goalFat from what yoy need in fat');
+      }
+    }
+  }
 
   void addGoal(String goal) {
     if (primaryGoal == null) {
@@ -121,7 +202,6 @@ class DatabaseProvider with ChangeNotifier {
           addLog("Adjusted TDEE after tertiary goal: $adjustedTDEE3");
 
           double finalTDEE = adjustedTDEE1 + adjustedTDEE2 + adjustedTDEE3;
-
           addLog('TDEE after adjustment is $finalTDEE');
           return finalTDEE;
         }
@@ -137,7 +217,7 @@ class DatabaseProvider with ChangeNotifier {
   }
 
   // Calculate macronutrient ratios in grams based on TDEE
-   Map<String, double> calculateRatios() {
+  Map<String, double> calculateRatios() {
     double tdee = calculateTDEE();
     List<String> goalsList = [
       if (primaryGoal != null) primaryGoal!,

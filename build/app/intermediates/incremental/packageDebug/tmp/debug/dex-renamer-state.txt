@@ -1,4 +1,4 @@
-#Mon Jul 29 21:20:19 WEST 2024
+#Tue Jul 30 14:24:56 WEST 2024
 base.0=C\:\\Users\\hp\\Desktop\\Stage II\\Calories\\calories\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\Users\\hp\\Desktop\\Stage II\\Calories\\calories\\build\\app\\intermediates\\dex\\debug\\mergeLibDexDebug\\0\\classes.dex
 base.2=C\:\\Users\\hp\\Desktop\\Stage II\\Calories\\calories\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex

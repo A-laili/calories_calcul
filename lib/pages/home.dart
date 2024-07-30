@@ -155,7 +155,7 @@ class MyHomePage extends StatelessWidget {
                             // Perform calculation only once
                             final tdee = provider.calculateTDEE();
                             final ratios = provider.calculateRatios();
-
+                            provider.recipe(); 
                             showDialog(
                               context: context,
                               builder: (BuildContext context) {
