@@ -544,243 +544,244 @@ Map<List<String>, GoalAdjustments> goalAdjustmentMap = {
 
 Map<List<String>, MacronutrientRatios> goalMacronutrientRatiosMap = {
   ['Build Muscles', 'Shape Up', 'Get Stronger']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.30, fatRatio: 0.20, carbRatio: 0.50),
   ['Build Muscles', 'Shape Up', 'Lose Weight']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.30, fatRatio: 0.25, carbRatio: 0.45),
   ['Build Muscles', 'Shape Up', 'Improve Flexibility']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.30, fatRatio: 0.25, carbRatio: 0.45),
   ['Build Muscles', 'Shape Up', 'General Fitness']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.30, fatRatio: 0.25, carbRatio: 0.45),
   ['Build Muscles', 'Get Stronger', 'Shape Up']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.30, fatRatio: 0.20, carbRatio: 0.50),
   ['Build Muscles', 'Get Stronger', 'Lose Weight']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.30, fatRatio: 0.25, carbRatio: 0.45),
   ['Build Muscles', 'Get Stronger', 'Improve Flexibility']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.30, fatRatio: 0.25, carbRatio: 0.45),
   ['Build Muscles', 'Get Stronger', 'General Fitness']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.30, fatRatio: 0.25, carbRatio: 0.45),
   ['Build Muscles', 'Lose Weight', 'Shape Up']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.30, fatRatio: 0.25, carbRatio: 0.45),
   ['Build Muscles', 'Lose Weight', 'Get Stronger']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.30, fatRatio: 0.25, carbRatio: 0.45),
   ['Build Muscles', 'Lose Weight', 'Improve Flexibility']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.30, fatRatio: 0.25, carbRatio: 0.45),
   ['Build Muscles', 'Lose Weight', 'General Fitness']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.30, fatRatio: 0.25, carbRatio: 0.45),
   ['Build Muscles', 'Improve Flexibility', 'Shape Up']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.30, fatRatio: 0.25, carbRatio: 0.45),
   ['Build Muscles', 'Improve Flexibility', 'Get Stronger']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.30, fatRatio: 0.25, carbRatio: 0.45),
   ['Build Muscles', 'Improve Flexibility', 'Lose Weight']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.30, fatRatio: 0.25, carbRatio: 0.45),
   ['Build Muscles', 'Improve Flexibility', 'General Fitness']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.30, fatRatio: 0.25, carbRatio: 0.45),
   ['Build Muscles', 'General Fitness', 'Shape Up']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.30, fatRatio: 0.25, carbRatio: 0.45),
   ['Build Muscles', 'General Fitness', 'Get Stronger']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.30, fatRatio: 0.25, carbRatio: 0.45),
   ['Build Muscles', 'General Fitness', 'Lose Weight']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.30, fatRatio: 0.25, carbRatio: 0.45),
   ['Build Muscles', 'General Fitness', 'Improve Flexibility']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.30, fatRatio: 0.25, carbRatio: 0.45),
   ['Shape Up', 'Build Muscles', 'Get Stronger']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.25, fatRatio: 0.20, carbRatio: 0.55),
   ['Shape Up', 'Build Muscles', 'Lose Weight']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.25, fatRatio: 0.25, carbRatio: 0.50),
   ['Shape Up', 'Build Muscles', 'Improve Flexibility']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.25, fatRatio: 0.25, carbRatio: 0.50),
   ['Shape Up', 'Build Muscles', 'General Fitness']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.25, fatRatio: 0.25, carbRatio: 0.50),
   ['Shape Up', 'Get Stronger', 'Build Muscles']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.25, fatRatio: 0.20, carbRatio: 0.55),
   ['Shape Up', 'Get Stronger', 'Lose Weight']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.25, fatRatio: 0.25, carbRatio: 0.50),
   ['Shape Up', 'Get Stronger', 'Improve Flexibility']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.25, fatRatio: 0.25, carbRatio: 0.50),
   ['Shape Up', 'Get Stronger', 'General Fitness']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.25, fatRatio: 0.25, carbRatio: 0.50),
   ['Shape Up', 'Lose Weight', 'Build Muscles']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.25, fatRatio: 0.25, carbRatio: 0.50),
   ['Shape Up', 'Lose Weight', 'Get Stronger']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.25, fatRatio: 0.25, carbRatio: 0.50),
   ['Shape Up', 'Lose Weight', 'Improve Flexibility']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.25, fatRatio: 0.25, carbRatio: 0.50),
   ['Shape Up', 'Lose Weight', 'General Fitness']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.25, fatRatio: 0.25, carbRatio: 0.50),
   ['Shape Up', 'Improve Flexibility', 'Build Muscles']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.25, fatRatio: 0.25, carbRatio: 0.50),
   ['Shape Up', 'Improve Flexibility', 'Get Stronger']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.25, fatRatio: 0.25, carbRatio: 0.50),
   ['Shape Up', 'Improve Flexibility', 'Lose Weight']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.25, fatRatio: 0.25, carbRatio: 0.50),
   ['Shape Up', 'Improve Flexibility', 'General Fitness']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.25, fatRatio: 0.25, carbRatio: 0.50),
   ['Shape Up', 'General Fitness', 'Build Muscles']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.25, fatRatio: 0.25, carbRatio: 0.50),
   ['Shape Up', 'General Fitness', 'Get Stronger']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.25, fatRatio: 0.25, carbRatio: 0.50),
   ['Shape Up', 'General Fitness', 'Lose Weight']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.25, fatRatio: 0.25, carbRatio: 0.50),
   ['Shape Up', 'General Fitness', 'Improve Flexibility']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.25, fatRatio: 0.25, carbRatio: 0.50),
   ['Get Stronger', 'Build Muscles', 'Shape Up']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.30, fatRatio: 0.20, carbRatio: 0.50),
   ['Get Stronger', 'Build Muscles', 'Lose Weight']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.30, fatRatio: 0.25, carbRatio: 0.45),
   ['Get Stronger', 'Build Muscles', 'Improve Flexibility']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.30, fatRatio: 0.25, carbRatio: 0.45),
   ['Get Stronger', 'Build Muscles', 'General Fitness']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.30, fatRatio: 0.25, carbRatio: 0.45),
   ['Get Stronger', 'Shape Up', 'Build Muscles']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.30, fatRatio: 0.20, carbRatio: 0.50),
   ['Get Stronger', 'Shape Up', 'Lose Weight']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.30, fatRatio: 0.25, carbRatio: 0.45),
   ['Get Stronger', 'Shape Up', 'Improve Flexibility']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.30, fatRatio: 0.25, carbRatio: 0.45),
   ['Get Stronger', 'Shape Up', 'General Fitness']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.30, fatRatio: 0.25, carbRatio: 0.45),
   ['Get Stronger', 'Lose Weight', 'Build Muscles']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.30, fatRatio: 0.25, carbRatio: 0.45),
   ['Get Stronger', 'Lose Weight', 'Shape Up']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.30, fatRatio: 0.25, carbRatio: 0.45),
   ['Get Stronger', 'Lose Weight', 'Improve Flexibility']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.30, fatRatio: 0.25, carbRatio: 0.45),
   ['Get Stronger', 'Lose Weight', 'General Fitness']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.30, fatRatio: 0.25, carbRatio: 0.45),
   ['Get Stronger', 'Improve Flexibility', 'Build Muscles']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.30, fatRatio: 0.25, carbRatio: 0.45),
   ['Get Stronger', 'Improve Flexibility', 'Shape Up']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.30, fatRatio: 0.25, carbRatio: 0.45),
   ['Get Stronger', 'Improve Flexibility', 'Lose Weight']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.30, fatRatio: 0.25, carbRatio: 0.45),
   ['Get Stronger', 'Improve Flexibility', 'General Fitness']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.30, fatRatio: 0.25, carbRatio: 0.45),
   ['Get Stronger', 'General Fitness', 'Build Muscles']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.30, fatRatio: 0.25, carbRatio: 0.45),
   ['Get Stronger', 'General Fitness', 'Shape Up']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.30, fatRatio: 0.25, carbRatio: 0.45),
   ['Get Stronger', 'General Fitness', 'Lose Weight']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.30, fatRatio: 0.25, carbRatio: 0.45),
   ['Get Stronger', 'General Fitness', 'Improve Flexibility']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.30, fatRatio: 0.25, carbRatio: 0.45),
   ['Lose Weight', 'Build Muscles', 'Shape Up']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.30, fatRatio: 0.25, carbRatio: 0.45),
   ['Lose Weight', 'Build Muscles', 'Get Stronger']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.30, fatRatio: 0.25, carbRatio: 0.45),
   ['Lose Weight', 'Build Muscles', 'Improve Flexibility']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.30, fatRatio: 0.25, carbRatio: 0.45),
   ['Lose Weight', 'Build Muscles', 'General Fitness']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.30, fatRatio: 0.25, carbRatio: 0.45),
   ['Lose Weight', 'Shape Up', 'Build Muscles']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.30, fatRatio: 0.25, carbRatio: 0.45),
   ['Lose Weight', 'Shape Up', 'Get Stronger']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.30, fatRatio: 0.25, carbRatio: 0.45),
   ['Lose Weight', 'Shape Up', 'Improve Flexibility']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.30, fatRatio: 0.25, carbRatio: 0.45),
   ['Lose Weight', 'Shape Up', 'General Fitness']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.30, fatRatio: 0.25, carbRatio: 0.45),
   ['Lose Weight', 'Get Stronger', 'Build Muscles']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.30, fatRatio: 0.25, carbRatio: 0.45),
   ['Lose Weight', 'Get Stronger', 'Shape Up']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.30, fatRatio: 0.25, carbRatio: 0.45),
   ['Lose Weight', 'Get Stronger', 'Improve Flexibility']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.30, fatRatio: 0.25, carbRatio: 0.45),
   ['Lose Weight', 'Get Stronger', 'General Fitness']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.30, fatRatio: 0.25, carbRatio: 0.45),
   ['Lose Weight', 'Improve Flexibility', 'Build Muscles']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.30, fatRatio: 0.25, carbRatio: 0.45),
   ['Lose Weight', 'Improve Flexibility', 'Shape Up']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.30, fatRatio: 0.25, carbRatio: 0.45),
   ['Lose Weight', 'Improve Flexibility', 'Get Stronger']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.30, fatRatio: 0.25, carbRatio: 0.45),
   ['Lose Weight', 'Improve Flexibility', 'General Fitness']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.30, fatRatio: 0.25, carbRatio: 0.45),
   ['Lose Weight', 'General Fitness', 'Build Muscles']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.30, fatRatio: 0.25, carbRatio: 0.45),
   ['Lose Weight', 'General Fitness', 'Shape Up']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.30, fatRatio: 0.25, carbRatio: 0.45),
   ['Lose Weight', 'General Fitness', 'Get Stronger']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.30, fatRatio: 0.25, carbRatio: 0.45),
   ['Lose Weight', 'General Fitness', 'Improve Flexibility']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.30, fatRatio: 0.25, carbRatio: 0.45),
   ['Improve Flexibility', 'Build Muscles', 'Shape Up']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.20, fatRatio: 0.30, carbRatio: 0.50),
   ['Improve Flexibility', 'Build Muscles', 'Get Stronger']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.20, fatRatio: 0.30, carbRatio: 0.50),
   ['Improve Flexibility', 'Build Muscles', 'Lose Weight']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.20, fatRatio: 0.30, carbRatio: 0.50),
   ['Improve Flexibility', 'Build Muscles', 'General Fitness']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.20, fatRatio: 0.30, carbRatio: 0.50),
   ['Improve Flexibility', 'Shape Up', 'Build Muscles']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.20, fatRatio: 0.30, carbRatio: 0.50),
   ['Improve Flexibility', 'Shape Up', 'Get Stronger']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.20, fatRatio: 0.30, carbRatio: 0.50),
   ['Improve Flexibility', 'Shape Up', 'Lose Weight']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.20, fatRatio: 0.30, carbRatio: 0.50),
   ['Improve Flexibility', 'Shape Up', 'General Fitness']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.20, fatRatio: 0.30, carbRatio: 0.50),
   ['Improve Flexibility', 'Get Stronger', 'Build Muscles']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.20, fatRatio: 0.30, carbRatio: 0.50),
   ['Improve Flexibility', 'Get Stronger', 'Shape Up']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.20, fatRatio: 0.30, carbRatio: 0.50),
   ['Improve Flexibility', 'Get Stronger', 'Lose Weight']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.20, fatRatio: 0.30, carbRatio: 0.50),
   ['Improve Flexibility', 'Get Stronger', 'General Fitness']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.20, fatRatio: 0.30, carbRatio: 0.50),
   ['Improve Flexibility', 'Lose Weight', 'Build Muscles']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.20, fatRatio: 0.30, carbRatio: 0.50),
   ['Improve Flexibility', 'Lose Weight', 'Shape Up']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.20, fatRatio: 0.30, carbRatio: 0.50),
   ['Improve Flexibility', 'Lose Weight', 'Get Stronger']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.20, fatRatio: 0.30, carbRatio: 0.50),
   ['Improve Flexibility', 'Lose Weight', 'General Fitness']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.20, fatRatio: 0.30, carbRatio: 0.50),
   ['Improve Flexibility', 'General Fitness', 'Build Muscles']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.20, fatRatio: 0.30, carbRatio: 0.50),
   ['Improve Flexibility', 'General Fitness', 'Shape Up']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.20, fatRatio: 0.30, carbRatio: 0.50),
   ['Improve Flexibility', 'General Fitness', 'Get Stronger']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.20, fatRatio: 0.30, carbRatio: 0.50),
   ['Improve Flexibility', 'General Fitness', 'Lose Weight']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.20, fatRatio: 0.30, carbRatio: 0.50),
   ['General Fitness', 'Build Muscles', 'Shape Up']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.25, fatRatio: 0.25, carbRatio: 0.50),
   ['General Fitness', 'Build Muscles', 'Get Stronger']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.25, fatRatio: 0.25, carbRatio: 0.50),
   ['General Fitness', 'Build Muscles', 'Lose Weight']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.25, fatRatio: 0.25, carbRatio: 0.50),
   ['General Fitness', 'Build Muscles', 'Improve Flexibility']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.25, fatRatio: 0.25, carbRatio: 0.50),
   ['General Fitness', 'Shape Up', 'Build Muscles']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.25, fatRatio: 0.25, carbRatio: 0.50),
   ['General Fitness', 'Shape Up', 'Get Stronger']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.25, fatRatio: 0.25, carbRatio: 0.50),
   ['General Fitness', 'Shape Up', 'Lose Weight']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.25, fatRatio: 0.25, carbRatio: 0.50),
   ['General Fitness', 'Shape Up', 'Improve Flexibility']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.25, fatRatio: 0.25, carbRatio: 0.50),
   ['General Fitness', 'Get Stronger', 'Build Muscles']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.25, fatRatio: 0.25, carbRatio: 0.50),
   ['General Fitness', 'Get Stronger', 'Shape Up']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.25, fatRatio: 0.25, carbRatio: 0.50),
   ['General Fitness', 'Get Stronger', 'Lose Weight']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.25, fatRatio: 0.25, carbRatio: 0.50),
   ['General Fitness', 'Get Stronger', 'Improve Flexibility']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.25, fatRatio: 0.25, carbRatio: 0.50),
   ['General Fitness', 'Lose Weight', 'Build Muscles']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.25, fatRatio: 0.25, carbRatio: 0.50),
   ['General Fitness', 'Lose Weight', 'Shape Up']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.25, fatRatio: 0.25, carbRatio: 0.50),
   ['General Fitness', 'Lose Weight', 'Get Stronger']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.25, fatRatio: 0.25, carbRatio: 0.50),
   ['General Fitness', 'Lose Weight', 'Improve Flexibility']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.25, fatRatio: 0.25, carbRatio: 0.50),
   ['General Fitness', 'Improve Flexibility', 'Build Muscles']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.25, fatRatio: 0.25, carbRatio: 0.50),
   ['General Fitness', 'Improve Flexibility', 'Shape Up']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.25, fatRatio: 0.25, carbRatio: 0.50),
   ['General Fitness', 'Improve Flexibility', 'Get Stronger']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.25, fatRatio: 0.25, carbRatio: 0.50),
   ['General Fitness', 'Improve Flexibility', 'Lose Weight']:
-      MacronutrientRatios(proteinRatio: 0.35, fatRatio: 0.3, carbRatio: 0.35),
+      MacronutrientRatios(proteinRatio: 0.25, fatRatio: 0.25, carbRatio: 0.50),
 };
+
