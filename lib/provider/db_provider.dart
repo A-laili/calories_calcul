@@ -22,13 +22,13 @@ class DatabaseProvider with ChangeNotifier {
       'calories': 103,
       'carbs': 15,
       'protein': 48,
-      'fat': 40,
+      'fat': 10,
     },
     {
       'calories': 110,
       'carbs': 30,
       'protein': 20,
-      'fat': 60,
+      'fat': 15,
     },
     {
       'calories': 100,
@@ -54,10 +54,10 @@ class DatabaseProvider with ChangeNotifier {
       totalFat += recipe['fat']!;
       print("******************************************");
       print('Total Calories: $totalCalories');
-      
+
       print('Total Protein: $totalProtein grams');
       print('Total Fat: $totalFat grams');
-print('Total Carbs: $totalCarbs grams');
+      print('Total Carbs: $totalCarbs grams');
       double calculatedProtein = calculatedRatios['protein']!;
       double calculatedFat = calculatedRatios['fat']!;
       double calculatedCarbs = calculatedRatios['carbs']!;
@@ -65,22 +65,22 @@ print('Total Carbs: $totalCarbs grams');
       double proteinPercentage = (totalProtein / totalCalories) * 100;
       double fatPercentage = (totalFat / totalCalories) * 100;
       double carbPercentage = (totalCarbs / totalCalories) * 100;
-            print("******************************************");
+      print("******************************************");
 
       print('Protein in the recipe : ${proteinPercentage.toStringAsFixed(2)}%');
       print('Fat in the recipe : ${fatPercentage.toStringAsFixed(2)}%');
       print('Carbs in the recipe : ${carbPercentage.toStringAsFixed(2)}%');
 
       print("-------------------------------------------------");
-      print('Amount of Protein you should have per day: $calculatedProtein grams');
+      print(
+          'Amount of Protein you should have per day: $calculatedProtein grams');
       print('Amount of Fat you should have per day: $calculatedFat grams');
       print('Amount of Carbs you should have per day: $calculatedCarbs grams');
 
       double proteinAcheived = (totalProtein / calculatedProtein) * 100;
       double fatAcheived = (totalFat / calculatedFat) * 100;
       double carbAcheived = (totalCarbs / calculatedCarbs) * 100;
-            print("******************************************");
-
+      print("******************************************");
 
       print("protein Acheived of your goal : $proteinAcheived %");
       print("fat Acheived of your goal : $fatAcheived %");
@@ -96,21 +96,21 @@ print('Total Carbs: $totalCarbs grams');
         double protratio = ratios.proteinRatio * 100;
         double fatratio = ratios.fatRatio * 100;
         double carbratio = ratios.carbRatio * 100;
-              print("******************************************");
+        print("******************************************");
 
         print(' The protein  ratios : $protratio');
         print(' The fat  ratios : $fatratio');
         print(' The carbs  ratios : $carbratio');
 
-        double goalProtein = (proteinPercentage / protratio) * 100;
-        double goalFat = (fatPercentage / fatratio) * 100;
-        double goalCarbs = (carbPercentage / carbratio) * 100;
-              print("******************************************");
+        double goalProtein = (proteinAcheived * protratio) / 100;
+        double goalFat = (fatAcheived * fatratio) / 100;
+        double goalCarbs = (carbAcheived * carbratio) / 100;
+        print("******************************************");
 
         print('You Acheived : ');
+        print('$goalProtein from what you need in protein');
+        print('$goalFat from what you need in fat');
         print('$goalCarbs from what you need in carbs');
-        print('$goalProtein from what yoy need in protein');
-        print('$goalFat from what yoy need in fat');
       }
     }
   }
