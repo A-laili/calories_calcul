@@ -19,21 +19,21 @@ class DatabaseProvider with ChangeNotifier {
   };
   List<Map<String, double>> recipes = [
     {
-      'calories': 521,
+      'calories': 103,
       'carbs': 15,
       'protein': 48,
       'fat': 40,
     },
     {
-      'calories': 521,
-      'carbs': 10,
+      'calories': 110,
+      'carbs': 30,
       'protein': 20,
-      'fat': 30,
+      'fat': 60,
     },
     {
       'calories': 100,
       'carbs': 12,
-      'protein': 15,
+      'protein': 45,
       'fat': 11,
     }
   ];
@@ -52,26 +52,39 @@ class DatabaseProvider with ChangeNotifier {
       totalCarbs += recipe['carbs']!;
       totalProtein += recipe['protein']!;
       totalFat += recipe['fat']!;
-    
-
-    print('Total Calories: $totalCalories');
-    print('Total Carbs: $totalCarbs grams');
-    print('Total Protein: $totalProtein grams');
-    print('Total Fat: $totalFat grams');
-
-   
-
+      print("******************************************");
+      print('Total Calories: $totalCalories');
+      
+      print('Total Protein: $totalProtein grams');
+      print('Total Fat: $totalFat grams');
+print('Total Carbs: $totalCarbs grams');
       double calculatedProtein = calculatedRatios['protein']!;
       double calculatedFat = calculatedRatios['fat']!;
       double calculatedCarbs = calculatedRatios['carbs']!;
 
-      double proteinPercentage = (totalProtein / calculatedProtein) * 100;
-      double fatPercentage = (totalFat / calculatedFat) * 100;
-      double carbPercentage = (totalCarbs / calculatedCarbs) * 100;
+      double proteinPercentage = (totalProtein / totalCalories) * 100;
+      double fatPercentage = (totalFat / totalCalories) * 100;
+      double carbPercentage = (totalCarbs / totalCalories) * 100;
+            print("******************************************");
+
       print('Protein in the recipe : ${proteinPercentage.toStringAsFixed(2)}%');
       print('Fat in the recipe : ${fatPercentage.toStringAsFixed(2)}%');
       print('Carbs in the recipe : ${carbPercentage.toStringAsFixed(2)}%');
 
+      print("-------------------------------------------------");
+      print('Amount of Protein you should have per day: $calculatedProtein grams');
+      print('Amount of Fat you should have per day: $calculatedFat grams');
+      print('Amount of Carbs you should have per day: $calculatedCarbs grams');
+
+      double proteinAcheived = (totalProtein / calculatedProtein) * 100;
+      double fatAcheived = (totalFat / calculatedFat) * 100;
+      double carbAcheived = (totalCarbs / calculatedCarbs) * 100;
+            print("******************************************");
+
+
+      print("protein Acheived of your goal : $proteinAcheived %");
+      print("fat Acheived of your goal : $fatAcheived %");
+      print("carb Acheived of your goal : $carbAcheived %");
       List<String> goalsList = [
         if (primaryGoal != null) primaryGoal!,
         if (secondaryGoal != null) secondaryGoal!,
@@ -83,6 +96,8 @@ class DatabaseProvider with ChangeNotifier {
         double protratio = ratios.proteinRatio * 100;
         double fatratio = ratios.fatRatio * 100;
         double carbratio = ratios.carbRatio * 100;
+              print("******************************************");
+
         print(' The protein  ratios : $protratio');
         print(' The fat  ratios : $fatratio');
         print(' The carbs  ratios : $carbratio');
@@ -90,6 +105,7 @@ class DatabaseProvider with ChangeNotifier {
         double goalProtein = (proteinPercentage / protratio) * 100;
         double goalFat = (fatPercentage / fatratio) * 100;
         double goalCarbs = (carbPercentage / carbratio) * 100;
+              print("******************************************");
 
         print('You Acheived : ');
         print('$goalCarbs from what you need in carbs');
@@ -784,4 +800,3 @@ Map<List<String>, MacronutrientRatios> goalMacronutrientRatiosMap = {
   ['General Fitness', 'Improve Flexibility', 'Lose Weight']:
       MacronutrientRatios(proteinRatio: 0.25, fatRatio: 0.25, carbRatio: 0.50),
 };
-
